@@ -29,7 +29,7 @@
 	<jakarta-annotation-api.version>3.0.0</jakarta-annotation-api.version>
 	<jakarta-persistence-api.version>3.2.0</jakarta-persistence-api.version>
 	<postgresql.version>42.7.8</postgresql.version>
-	<javafx.version>25.0.1</javafx.version>
+	<javafx.version>25.0.2</javafx.version>
   </properties>
 
   <dependencies>
