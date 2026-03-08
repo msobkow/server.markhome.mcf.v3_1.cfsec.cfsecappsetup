@@ -2,7 +2,7 @@
 // Description: JavaFX Application Setup entry point
 
 /*
- *	io.github.msobkow.CFSec
+ *	server.markhome.mcf.CFSec
  *
  *	Copyright (c) 2016-2026 Mark Stephen Sobkow
  *	
@@ -33,7 +33,7 @@
  *	
  */
 
-package io.github.msobkow.v3_1.cfsec.cfsecappsetup.fx;
+package server.markhome.mcf.v3_1.cfsec.cfsecappsetup.fx;
 
 import java.lang.reflect.*;
 import java.io.File;
@@ -66,20 +66,20 @@ import javafx.scene.Scene;
 import javafx.scene.layout.Region;
 import javafx.stage.Stage;
 
-import io.github.msobkow.v3_1.cfsec.cfsecappsetup.CFSecAppSetup;
+import server.markhome.mcf.v3_1.cfsec.cfsecappsetup.CFSecAppSetup;
 
-import io.github.msobkow.v3_1.cflib.*;
-import io.github.msobkow.v3_1.cflib.inz.Inz;
-import io.github.msobkow.v3_1.cflib.inz.InzPathEntry;
-import io.github.msobkow.v3_1.cflib.dbutil.*;
-import io.github.msobkow.v3_1.cfsec.cfsec.*;
-import io.github.msobkow.v3_1.cfsec.cfsec.buff.*;
-import io.github.msobkow.v3_1.cfsec.cfsecappsetup.CFSecAppSetup;
+import server.markhome.mcf.v3_1.cflib.*;
+import server.markhome.mcf.v3_1.cflib.inz.Inz;
+import server.markhome.mcf.v3_1.cflib.inz.InzPathEntry;
+import server.markhome.mcf.v3_1.cflib.dbutil.*;
+import server.markhome.mcf.v3_1.cfsec.cfsec.*;
+import server.markhome.mcf.v3_1.cfsec.cfsec.buff.*;
+import server.markhome.mcf.v3_1.cfsec.cfsecappsetup.CFSecAppSetup;
 
 @Component
 public class CFSecAppSetupFxApplication extends Application {
 
-	public static final org.slf4j.Logger logger = org.slf4j.LoggerFactory.getLogger(io.github.msobkow.v3_1.cfsec.cfsecappsetup.CFSecAppSetup.class.getName());
+	public static final org.slf4j.Logger logger = org.slf4j.LoggerFactory.getLogger(server.markhome.mcf.v3_1.cfsec.cfsecappsetup.CFSecAppSetup.class.getName());
 
 	public static String INIT_LOG_MESSAGE1 = "The CFSecAppSetupFxApplication init method is called";
 

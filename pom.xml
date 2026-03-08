@@ -7,11 +7,11 @@
     <version>4.0.0</version>
   </parent>
 
-  <groupId>io.github.msobkow.v3_1</groupId>
-  <artifactId>io.github.msobkow.v3_1.cfsec.cfsecappsetup</artifactId>
+  <groupId>server.markhome.mcf.v3_1</groupId>
+  <artifactId>server.markhome.mcf.v3_1.cfsec.cfsecappsetup</artifactId>
   <version>3.1.42</version>
-  <name>io.github.msobkow.v3_1.cfsec.cfsecappsetup</name>
-  <description>msobkow 3.1.42 CFSec cfsecappsetup - JavaFX program to perform initial application configuration and setup</description>
+  <name>server.markhome.mcf.v3_1.cfsec.cfsecappsetup</name>
+  <description>mcf 3.1.42 CFSec cfsecappsetup - JavaFX program to perform initial application configuration and setup</description>
   <url>mailto:mark.sobkow@gmail.com</url>
 
   <properties>
@@ -34,19 +34,19 @@
 
   <dependencies>
     <dependency>
-      <groupId>io.github.msobkow.v3_1</groupId>
-      <artifactId>io.github.msobkow.v3_1.cflib</artifactId>
-      <version>3.1</version>
+      <groupId>server.markhome.mcf.v3_1</groupId>
+      <artifactId>server.markhome.mcf.v3_1.cflib</artifactId>
+      <version>3.1.42</version>
     </dependency>
     <dependency>
-      <groupId>io.github.msobkow.v3_1</groupId>
-      <artifactId>io.github.msobkow.v3_1.cflib.dbutil</artifactId>
-      <version>3.1</version>
+      <groupId>server.markhome.mcf.v3_1</groupId>
+      <artifactId>server.markhome.mcf.v3_1.cflib.dbutil</artifactId>
+      <version>3.1.42</version>
     </dependency>
     <dependency>
-      <groupId>io.github.msobkow.v3_1</groupId>
-      <artifactId>io.github.msobkow.v3_1.cflib.javafx</artifactId>
-      <version>3.1</version>
+      <groupId>server.markhome.mcf.v3_1</groupId>
+      <artifactId>server.markhome.mcf.v3_1.cflib.javafx</artifactId>
+      <version>3.1.42</version>
     </dependency>
     <dependency>
         <groupId>ch.qos.logback</groupId>
@@ -107,13 +107,13 @@
         <artifactId>spring-orm</artifactId>
     </dependency>
     <dependency>
-        <groupId>io.github.msobkow.v3_1</groupId>
-        <artifactId>io.github.msobkow.v3_1.cfsec.cfsec</artifactId>
+        <groupId>server.markhome.mcf.v3_1</groupId>
+        <artifactId>server.markhome.mcf.v3_1.cfsec.cfsec</artifactId>
         <version>3.1.42</version>
     </dependency>
     <dependency>
-        <groupId>io.github.msobkow.v3_1</groupId>
-        <artifactId>io.github.msobkow.v3_1.cfsec.cfsecbuff</artifactId>
+        <groupId>server.markhome.mcf.v3_1</groupId>
+        <artifactId>server.markhome.mcf.v3_1.cfsec.cfsecbuff</artifactId>
         <version>3.1.42</version>
     </dependency>
   </dependencies>
@@ -121,12 +121,12 @@
 		<repository>
 			<id>nexus-releases</id>
 			<name>Nexus release repository</name>
-			<url>http://nexus3.msobkow.github.io:8081/repository/msobkow.github.io-hosted/</url>
+			<url>http://nexus3.mcf.markhome.server:8081/repository/mcf.markhome.server-hosted/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus-snapshots</id>
 			<name>Nexus release repository</name>
-			<url>http://nexus3.msobkow.github.io:8081/repository/msobkow.github.io-hosted/</url>
+			<url>http://nexus3.mcf.markhome.server:8081/repository/mcf.markhome.server-hosted/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
@@ -162,7 +162,7 @@
 				</executions>
 				<configuration>
 					<serverId>nexus</serverId>
-					<nexusUrl>http://nexus3.msobkow.github.io:8081/repository/msobkow.github.io-hosted/</nexusUrl>
+					<nexusUrl>http://nexus3.mcf.markhome.server:8081/repository/mcf.markhome.server-hosted/</nexusUrl>
 					<skipStaging>true</skipStaging>
 				</configuration>
 			</plugin>
@@ -171,7 +171,7 @@
 				<artifactId>javafx-maven-plugin</artifactId>
 				<version>0.0.8</version>
 				<configuration>
-                	<mainClass>io.github.msobkow.v3_1.cfsec.cfsecappsetup.fx.CFSecAppSetupFxApplication</mainClass>
+                	<mainClass>server.markhome.mcf.v3_1.cfsec.cfsecappsetup.fx.CFSecAppSetupFxApplication</mainClass>
 				</configuration>
 			</plugin>
     		<plugin>
@@ -185,7 +185,7 @@
 						</goals>
 						<configuration>
 							<classifier>spring-boot</classifier>
-							<mainClass>io.github.msobkow.v3_1.cfsec.cfsecappsetup.CFSecAppSetup</mainClass>
+							<mainClass>server.markhome.mcf.v3_1.cfsec.cfsecappsetup.CFSecAppSetup</mainClass>
 						</configuration>
 					</execution>
 				</executions>

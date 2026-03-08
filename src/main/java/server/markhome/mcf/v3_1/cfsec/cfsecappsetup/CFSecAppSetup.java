@@ -2,7 +2,7 @@
 // Description: Java 25 Main for testing the CFSec schema database creation
 
 /*
- *	io.github.msobkow.CFSec
+ *	server.markhome.mcf.CFSec
  *
  *	Copyright (c) 2016-2026 Mark Stephen Sobkow
  *	
@@ -33,7 +33,7 @@
  *	
  */
 
-package io.github.msobkow.v3_1.cfsec.cfsecappsetup;
+package server.markhome.mcf.v3_1.cfsec.cfsecappsetup;
 
 import java.lang.reflect.*;
 import java.io.File;
@@ -61,18 +61,18 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.ConfigurableEnvironment;
 
-import io.github.msobkow.v3_1.cflib.*;
-import io.github.msobkow.v3_1.cflib.inz.Inz;
-import io.github.msobkow.v3_1.cflib.inz.InzPathEntry;
-import io.github.msobkow.v3_1.cflib.dbutil.*;
-import io.github.msobkow.v3_1.cfsec.cfsec.*;
-import io.github.msobkow.v3_1.cfsec.cfsec.buff.*;
-import io.github.msobkow.v3_1.cfsec.cfsecappsetup.fx.CFSecAppSetupFxApplication;
+import server.markhome.mcf.v3_1.cflib.*;
+import server.markhome.mcf.v3_1.cflib.inz.Inz;
+import server.markhome.mcf.v3_1.cflib.inz.InzPathEntry;
+import server.markhome.mcf.v3_1.cflib.dbutil.*;
+import server.markhome.mcf.v3_1.cfsec.cfsec.*;
+import server.markhome.mcf.v3_1.cfsec.cfsec.buff.*;
+import server.markhome.mcf.v3_1.cfsec.cfsecappsetup.fx.CFSecAppSetupFxApplication;
 
 @SpringBootApplication
 @ComponentScan(basePackages = {
-    "io.github.msobkow.v3_1.cfsec.cfsecappsetup.fx",   // if you have service beans here
-    "io.github.msobkow.v3_1.cfsec.cfsecappsetup.spring"   // if you have service beans here
+    "server.markhome.mcf.v3_1.cfsec.cfsecappsetup.fx",   // if you have service beans here
+    "server.markhome.mcf.v3_1.cfsec.cfsecappsetup.spring"   // if you have service beans here
 })
 @EnableAutoConfiguration(exclude = {
 })
@@ -84,7 +84,7 @@ public class CFSecAppSetup
     private static final AtomicReference<Properties> userProperties = new AtomicReference<>(null);
     private static final AtomicReference<Properties> mergedProperties = new AtomicReference<>(null);
 
-	public static final org.slf4j.Logger logger = org.slf4j.LoggerFactory.getLogger(io.github.msobkow.v3_1.cfsec.cfsecappsetup.CFSecAppSetup.class.getName());
+	public static final org.slf4j.Logger logger = org.slf4j.LoggerFactory.getLogger(server.markhome.mcf.v3_1.cfsec.cfsecappsetup.CFSecAppSetup.class.getName());
 	public static LoggerContext loggerContext = (LoggerContext) org.slf4j.LoggerFactory.getILoggerFactory();
 	public static String startingupMessage = CFSecAppSetup.class.getName() + " starting.";
 
@@ -174,7 +174,7 @@ public class CFSecAppSetup
     }
 
     public static void main(String[] args) {
-        Inz.addPathEntry(new InzPathEntry("/opt/mcf/v3_1/java" + "/io.github.msobkow.v3_1.cfsec.cfsecappsetup/src/main/resources/" + "/io.github.msobkow.v3_1.cfsec.cfsecappsetup".replace(".","/") + "/langs"));
+        Inz.addPathEntry(new InzPathEntry("/opt/mcf/v3_1/java" + "/server.markhome.mcf.v3_1.cfsec.cfsecappsetup/src/main/resources/" + "/server.markhome.mcf.v3_1.cfsec.cfsecappsetup".replace(".","/") + "/langs"));
 
         // This weird looking cadence ensures that all the sub-property lists are prepared before getMergedProperties() is invoked, ensuring that any errors and exceptions along the way are thrown first and in predictable order
         Properties mergedProperties = getApplicationProperties();
