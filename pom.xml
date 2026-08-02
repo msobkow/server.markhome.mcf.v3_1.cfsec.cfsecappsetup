@@ -29,7 +29,7 @@
 	<spring.version>4.0.5</spring.version>
     <mcf.version>3.1.42</mcf.version>
     <orm.version>7.0.2</orm.version>
-	<postgresql.version>42.7.11</postgresql.version>
+	<postgresql.version>42.7.12</postgresql.version>
 	<javafx.version>21.0.9</javafx.version>
   </properties>
 
