@@ -58,6 +58,7 @@ import server.markhome.mcf.v3_1.cflib.*;
 import server.markhome.mcf.v3_1.cflib.inz.Inz;
 import server.markhome.mcf.v3_1.cflib.inz.InzPathEntry;
 import server.markhome.mcf.v3_1.cflib.dbutil.*;
+import server.markhome.mcf.v3_1.cflib.keyhash.*;
 
 import server.markhome.mcf.v3_1.cfsec.cfsecpub.*;
 import server.markhome.mcf.v3_1.cfsec.cfsecpubobj.*;
