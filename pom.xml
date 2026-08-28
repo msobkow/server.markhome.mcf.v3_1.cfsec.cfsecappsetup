@@ -34,80 +34,80 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>server.markhome.mcf.v3_1</groupId>
-      <artifactId>server.markhome.mcf.v3_1.cflib</artifactId>
-      <version>3.1.42</version>
-    </dependency>
-    <dependency>
-      <groupId>server.markhome.mcf.v3_1</groupId>
-      <artifactId>server.markhome.mcf.v3_1.cflib.dbutil</artifactId>
-      <version>3.1.42</version>
-    </dependency>
-    <dependency>
-      <groupId>server.markhome.mcf.v3_1</groupId>
-      <artifactId>server.markhome.mcf.v3_1.cflib.javafx</artifactId>
-      <version>3.1.42</version>
-    </dependency>
-    <dependency>
-        <groupId>ch.qos.logback</groupId>
-        <artifactId>logback-classic</artifactId>
-    </dependency>
-    <dependency>
-        <groupId>org.postgresql</groupId>
-        <artifactId>postgresql</artifactId>
-        <scope>runtime</scope>
-		<version>${postgresql.version}</version>
-    </dependency>
-    <dependency>
-    	<groupId>commons-codec</groupId>
-        <artifactId>commons-codec</artifactId>
-    </dependency>
-    <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-api</artifactId>
-        <scope>test</scope>
-    </dependency>
-    <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-engine</artifactId>
-        <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>javax.xml.bind</groupId>
-      <artifactId>jaxb-api</artifactId>
-      <version>${jaxb-api.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.commons</groupId>
-      <artifactId>commons-text</artifactId>
-      <version>${commons-text.version}</version>
-    </dependency>
 	<dependency>
-        <groupId>jakarta.annotation</groupId>
-        <artifactId>jakarta.annotation-api</artifactId>
-    </dependency>
-    <dependency>
-        <groupId>jakarta.persistence</groupId>
-        <artifactId>jakarta.persistence-api</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-controls</artifactId>
-      <version>${javafx.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-data-jpa</artifactId>
-    </dependency>
-    <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-orm</artifactId>
-    </dependency>
+	  <groupId>server.markhome.mcf.v3_1</groupId>
+	  <artifactId>server.markhome.mcf.v3_1.cflib</artifactId>
+	  <version>3.1.42</version>
+	</dependency>
+	<dependency>
+	  <groupId>server.markhome.mcf.v3_1</groupId>
+	  <artifactId>server.markhome.mcf.v3_1.cflib.dbutil</artifactId>
+	  <version>3.1.42</version>
+	</dependency>
+	<dependency>
+	  <groupId>server.markhome.mcf.v3_1</groupId>
+	  <artifactId>server.markhome.mcf.v3_1.cflib.javafx</artifactId>
+	  <version>3.1.42</version>
+	</dependency>
+	<dependency>
+		<groupId>ch.qos.logback</groupId>
+		<artifactId>logback-classic</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.postgresql</groupId>
+		<artifactId>postgresql</artifactId>
+		<scope>runtime</scope>
+		<version>${postgresql.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>commons-codec</groupId>
+		<artifactId>commons-codec</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.junit.jupiter</groupId>
+		<artifactId>junit-jupiter-api</artifactId>
+		<scope>test</scope>
+	</dependency>
+	<dependency>
+		<groupId>org.junit.jupiter</groupId>
+		<artifactId>junit-jupiter-engine</artifactId>
+		<scope>test</scope>
+	</dependency>
+	<dependency>
+	  <groupId>javax.xml.bind</groupId>
+	  <artifactId>jaxb-api</artifactId>
+	  <version>${jaxb-api.version}</version>
+	</dependency>
+	<dependency>
+	  <groupId>org.apache.commons</groupId>
+	  <artifactId>commons-text</artifactId>
+	  <version>${commons-text.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>jakarta.annotation</groupId>
+		<artifactId>jakarta.annotation-api</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>jakarta.persistence</groupId>
+		<artifactId>jakarta.persistence-api</artifactId>
+	</dependency>
+	<dependency>
+	  <groupId>org.openjfx</groupId>
+	  <artifactId>javafx-controls</artifactId>
+	  <version>${javafx.version}</version>
+	</dependency>
+	<dependency>
+	  <groupId>org.springframework.boot</groupId>
+	  <artifactId>spring-boot-starter</artifactId>
+	</dependency>
+	<dependency>
+	  <groupId>org.springframework.boot</groupId>
+	  <artifactId>spring-boot-starter-data-jpa</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-orm</artifactId>
+	</dependency>
     <dependency>
         <groupId>server.markhome.mcf.v3_1</groupId>
         <artifactId>server.markhome.mcf.v3_1.cfsec.cfsecpub</artifactId>
@@ -140,7 +140,7 @@
 				<version>3.5.3</version>
 			</extension>
 		</extensions>
-    	<plugins>
+		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-deploy-plugin</artifactId>
@@ -173,10 +173,10 @@
 				<artifactId>javafx-maven-plugin</artifactId>
 				<version>0.0.8</version>
 				<configuration>
-                	<mainClass>server.markhome.mcf.v3_1.cfsec.cfsecappsetup.fx.CFSecAppSetupFxApplication</mainClass>
+					<mainClass>server.markhome.mcf.v3_1.cfsec.cfsecappsetup.fx.CFSecAppSetupFxApplication</mainClass>
 				</configuration>
 			</plugin>
-    		<plugin>
+			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<version>${spring.version}</version>
@@ -192,32 +192,59 @@
 					</execution>
 				</executions>
 			</plugin>
-      		<plugin>
-        		<groupId>org.apache.maven.plugins</groupId>
-        		<artifactId>maven-surefire-plugin</artifactId>
-        		<version>3.5.3</version>
-        		<configuration>
-          			<useModulePath>false</useModulePath>
-        		</configuration>
-      		</plugin>
+	  		<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.5.3</version>
+				<configuration>
+		  			<useModulePath>false</useModulePath>
+				</configuration>
+	  		</plugin>
+			<!-- plugin>
+				<groupId>org.teavm</groupId>
+				<artifactId>teavm-maven-plugin</artifactId>
+				<version>0.15.0</version>
+				<executions>
+					<execution>
+						<id>compile-to-javascript</id>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>compile-javascript</goal>
+						</goals>
+						<configuration>
+							<mainClass>server.markhome.mcf.v3_1.cfsec.cfsec.CFSecAppSetupLibraryEntry</mainClass> 
+							<targetDirectory>${project.build.directory}/generated-js</targetDirectory>
+							<targetFileName>cfsec-appsetup-module.js</targetFileName>
+							<jsTargetType>WEBASSEMBLY_GC</jsTargetType>
+							<jsModuleType>ES2015</jsModuleType>
+							<minifying>false</minifying> 
+							<optimizationLevel>SIMPLE</optimizationLevel>
+							<sourceMapsGenerated>true</sourceMapsGenerated>
+							<preservedClasses>
+								<string>server.markhome.mcf.v3_1.cfsec.cfsec.CFSecAppSetupLibraryEntry</string>
+							</preservedClasses>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin-->
 		</plugins>
 	</build>
 
   <reporting>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.5.3</version>
-            <configuration>
-                <skipTests>false</skipTests>
-                <useSystemClassLoader>true</useSystemClassLoader>
-            </configuration>
-        </plugin>
-        <plugin>
-            <artifactId>maven-project-info-reports-plugin</artifactId>
-        </plugin>
-    </plugins>
+	<plugins>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
+			<version>3.5.3</version>
+			<configuration>
+				<skipTests>false</skipTests>
+				<useSystemClassLoader>true</useSystemClassLoader>
+			</configuration>
+		</plugin>
+		<plugin>
+			<artifactId>maven-project-info-reports-plugin</artifactId>
+		</plugin>
+	</plugins>
   </reporting>
 </project>
 
