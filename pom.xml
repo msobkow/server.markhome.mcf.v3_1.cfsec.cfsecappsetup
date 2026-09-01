@@ -9,9 +9,9 @@
 
   <groupId>server.markhome.mcf.v3_1</groupId>
   <artifactId>server.markhome.mcf.v3_1.cfsec.cfsecappsetup</artifactId>
-  <version>3.1.42-2026-09-01T10:35:10:00Z</version>
+  <version>3.1.42-2026-09-01T17:52:00Z</version>
   <name>server.markhome.mcf.v3_1.cfsec.cfsecappsetup</name>
-  <description>mcf 3.1.42-2026-09-01T10:35:10:00Z CFSec cfsecappsetup - JavaFX program to perform initial application configuration and setup</description>
+  <description>mcf 3.1.42-2026-09-01T17:52:00Z CFSec cfsecappsetup - JavaFX program to perform initial application configuration and setup</description>
   <url>mailto:mark.sobkow@gmail.com</url>
 
   <properties>
@@ -37,17 +37,17 @@
 	<dependency>
 	  <groupId>server.markhome.mcf.v3_1</groupId>
 	  <artifactId>server.markhome.mcf.v3_1.cflib</artifactId>
-	  <version>3.1.42-2026-09-01T10:35:10:00Z</version>
+	  <version>3.1.42-2026-09-01T17:52:00Z</version>
 	</dependency>
 	<dependency>
 	  <groupId>server.markhome.mcf.v3_1</groupId>
 	  <artifactId>server.markhome.mcf.v3_1.cflib.dbutil</artifactId>
-	  <version>3.1.42-2026-09-01T10:35:10:00Z</version>
+	  <version>3.1.42-2026-09-01T17:52:00Z</version>
 	</dependency>
 	<dependency>
 	  <groupId>server.markhome.mcf.v3_1</groupId>
 	  <artifactId>server.markhome.mcf.v3_1.cflib.javafx</artifactId>
-	  <version>3.1.42-2026-09-01T10:35:10:00Z</version>
+	  <version>3.1.42-2026-09-01T17:52:00Z</version>
 	</dependency>
 	<dependency>
 		<groupId>ch.qos.logback</groupId>
@@ -111,12 +111,12 @@
     <dependency>
         <groupId>server.markhome.mcf.v3_1</groupId>
         <artifactId>server.markhome.mcf.v3_1.cfsec.cfsecpub</artifactId>
-        <version>3.1.42-2026-09-01T10:35:10:00Z</version>
+        <version>3.1.42-2026-09-01T17:52:00Z</version>
     </dependency>
     <dependency>
         <groupId>server.markhome.mcf.v3_1</groupId>
         <artifactId>server.markhome.mcf.v3_1.cfsec.cfsecprot</artifactId>
-        <version>3.1.42-2026-09-01T10:35:10:00Z</version>
+        <version>3.1.42-2026-09-01T17:52:00Z</version>
     </dependency>
   </dependencies>
 	<distributionManagement>
